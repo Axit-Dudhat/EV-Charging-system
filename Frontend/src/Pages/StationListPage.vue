@@ -61,19 +61,19 @@
         <thead>
           <tr>
             <th>Station Name</th>
-            <th>Latitude</th>
-            <th>Longitude</th>
+            <th class="hide-mobile">Latitude</th>
+            <th class="hide-mobile">Longitude</th>
             <th>Status</th>
             <th>Power Output</th>
-            <th>Connector Type</th>
+            <th class="hide-xs">Connector Type</th>
             <th style="text-align: right;">Actions</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="station in paginatedStations" :key="station._id || station.id">
             <td style="font-weight: 500; color: var(--text-title);">{{ station.name }}</td>
-            <td class="text-muted">{{ station.latitude.toFixed(4) }}</td>
-            <td class="text-muted">{{ station.longitude.toFixed(4) }}</td>
+            <td class="text-muted hide-mobile">{{ station.latitude.toFixed(4) }}</td>
+            <td class="text-muted hide-mobile">{{ station.longitude.toFixed(4) }}</td>
             <td>
               <span 
                 class="badge" 
@@ -86,7 +86,7 @@
             <td>
               <span style="font-weight: 600;">{{ station.powerOutput }}</span> <span class="text-muted">kW</span>
             </td>
-            <td>
+            <td class="hide-xs">
               <span class="badge badge-info">{{ station.connectorType }}</span>
             </td>
             <td>
