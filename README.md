@@ -136,7 +136,6 @@ A full-stack web application built to manage EV charging stations, featuring rea
 ### Auth
 * **POST** `/api/auth/register` - Create a new user profile.
 * **POST** `/api/auth/login` - Authenticate user and issue JWT token.
-* **GET** `/api/auth/profile` - Retrieve current user profile (requires token).
 
 ### Charging Stations (Requires Authorization header: `Bearer <token>`)
 * **GET** `/api/stations` - Fetch list of stations (supports query parameters: `search`, `status`, `connector`).
