@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://your-backend.up.railway.app/api",
+    baseURL: "https://ev-charging-system-production.up.railway.app/",
 });
 
 API.interceptors.request.use((config) => {
