@@ -1,6 +1,6 @@
 import { reactive, watch } from 'vue';
 
-const API_BASE = 'https://ev-charging-system-production.up.railway.app/';
+const API_BASE = 'https://ev-charging-system-production.up.railway.app';
 
 // Load authentication credentials from local storage
 const savedToken = localStorage.getItem('ev_token') || localStorage.getItem('token');
