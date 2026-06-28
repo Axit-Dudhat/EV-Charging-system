@@ -3,8 +3,8 @@
 A full-stack web application built to manage EV charging stations, featuring real-time status monitoring, full CRUD operations, and an interactive live map visualization.
 
 ## 🚀 Live Links
-* **Frontend Application**: [https://ev-charging-system-production.up.railway.app](https://ev-charging-system-production.up.railway.app) (Hosted on Railway)
-* **Backend API Base URL**: [https://ev-charging-system-production.up.railway.app/api](https://ev-charging-system-production.up.railway.app/api)
+* **Frontend Application**: [https://ev-charging-system-pi.vercel.app/](https://ev-charging-system-pi.vercel.app/) (Hosted on vercel)
+* **Backend API Base URL**: [https://ev-charging-system-production.up.railway.app/api](https://ev-charging-system-production.up.railway.app/api)(Hosted on railway)
 
 ---
 
